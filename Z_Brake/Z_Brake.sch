@@ -41,21 +41,6 @@ F 7 "PC-MS0056" H 2500 6150 60  0001 C CNN "AO Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L ec2-24nu:EC2-24NU K1
-U 1 1 5A25BAB4
-P 4450 1950
-F 0 "K1" H 4050 1800 60  0000 C CNN
-F 1 "EC2-24NU" H 3900 2100 60  0000 C CNN
-F 2 "AO Parts:EC2_Relay" H 4200 1450 60  0001 C CNN
-F 3 "" H 4200 1450 60  0001 C CNN
-F 4 "EC2-24NU" H 4450 1950 60  0001 C CNN "Part Number"
-F 5 "Digikey" H 4450 1950 60  0001 C CNN "Primary Supplier"
-F 6 "399-11037-5-ND" H 4450 1950 60  0001 C CNN "DKPN"
-F 7 "EL-MS-0492" H 4450 1950 60  0001 C CNN "AO Part Number"
-	1    4450 1950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x04 P1
 U 1 1 5A25BCC2
 P 1400 1900
@@ -77,18 +62,6 @@ F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 8700 1900 50  0001 C CNN
 F 3 "" H 8700 1900 50  0000 C CNN
 F 4 "WM4802-ND" H 8700 1900 50  0001 C CNN "DKPN"
 	1    8700 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 P4
-U 1 1 5A25BDE2
-P 8700 3000
-F 0 "P4" H 8700 3300 50  0000 C CNN
-F 1 "CONN_01X04" V 8850 3000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 8700 3000 50  0001 C CNN
-F 3 "" H 8700 3000 50  0000 C CNN
-F 4 "WM4802-ND" H 8700 3000 50  0001 C CNN "DKPN"
-	1    8700 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -128,50 +101,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 1400 7200 1400
 Wire Wire Line
-	6400 1900 6400 1500
-Wire Wire Line
-	6400 1500 4600 1500
-Wire Wire Line
-	4600 1500 4600 1600
-Connection ~ 6500 1900
-Wire Wire Line
-	4450 2300 4450 2500
-Wire Wire Line
-	4450 2500 6400 2500
-Wire Wire Line
-	6400 2500 6400 3000
-Wire Wire Line
-	6400 3000 7100 3000
-Wire Wire Line
-	4600 2300 4600 2400
-Wire Wire Line
-	6500 2400 4600 2400
-Wire Wire Line
 	6300 2000 6300 2700
 Wire Wire Line
 	6300 2700 4450 2700
 Wire Wire Line
 	4450 2700 4450 2900
-Wire Wire Line
-	4450 3600 4450 3800
-Wire Wire Line
-	4450 3800 7100 3800
-Wire Wire Line
-	7100 3800 7100 3600
-Wire Wire Line
-	4600 3600 4600 3700
-Wire Wire Line
-	6200 3700 4600 3700
-Wire Wire Line
-	6200 2100 6200 2800
-Wire Wire Line
-	6200 3100 7100 3100
-Connection ~ 6200 3100
-Wire Wire Line
-	4600 2900 4600 2800
-Wire Wire Line
-	4600 2800 6200 2800
-Connection ~ 6200 2800
 $Comp
 L Device:D_Schottky_ALT D2
 U 1 1 5A25CBCD
@@ -654,32 +588,6 @@ F 4 "445-2549-1-ND" H 8000 2350 50  0001 C CNN "DKPN"
 	1    8000 2350
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Varistor RV3
-U 1 1 5B281699
-P 7100 2550
-F 0 "RV3" H 7250 2550 50  0000 C CNN
-F 1 "M2012C390" V 6950 2550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7030 2550 50  0001 C CNN
-F 3 "" H 7100 2550 50  0000 C CNN
-F 4 "445-2549-1-ND" H 7100 2550 50  0001 C CNN "DKPN"
-	1    7100 2550
-	1    0    0    -1  
-$EndComp
-Connection ~ 7100 3100
-Connection ~ 7100 3000
-$Comp
-L Device:Varistor RV4
-U 1 1 5B281A22
-P 7100 3450
-F 0 "RV4" H 7250 3450 50  0000 C CNN
-F 1 "M2012C390" V 6950 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7030 3450 50  0001 C CNN
-F 3 "" H 7100 3450 50  0000 C CNN
-F 4 "445-2549-1-ND" H 7100 3450 50  0001 C CNN "DKPN"
-	1    7100 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8500 1800 8300 1800
 Wire Wire Line
@@ -692,49 +600,14 @@ Wire Wire Line
 	7200 1400 7200 1200
 Connection ~ 8000 1200
 Wire Wire Line
-	6400 1900 6500 1900
-Wire Wire Line
 	8000 1700 8000 1900
-Connection ~ 8000 1900
 Wire Wire Line
 	6300 2000 8000 2000
 Wire Wire Line
 	8000 2200 8000 2000
 Connection ~ 8000 2000
 Wire Wire Line
-	8500 2100 8300 2100
-Wire Wire Line
-	8300 2700 8300 2100
-Wire Wire Line
-	7500 2700 8000 2700
-Wire Wire Line
 	8000 2700 8000 2500
-Wire Wire Line
-	7500 2700 7500 2100
-Wire Wire Line
-	7500 2100 6200 2100
-Connection ~ 8000 2700
-Wire Wire Line
-	8500 2900 7400 2900
-Wire Wire Line
-	7400 2200 7400 2900
-Wire Wire Line
-	6500 2200 7100 2200
-Wire Wire Line
-	7100 2200 7100 2400
-Wire Wire Line
-	6500 1900 6500 2200
-Connection ~ 6500 2200
-Connection ~ 7100 2200
-Wire Wire Line
-	7100 2700 7100 3000
-Wire Wire Line
-	7100 3300 7100 3100
-Wire Wire Line
-	8500 3200 8000 3200
-Wire Wire Line
-	8000 3200 8000 3800
-Connection ~ 7100 3800
 Text Notes 8350 6950 0    118  ~ 0
 Z-BRAKE BOARD
 Text Notes 7400 7500 0    59   ~ 0
@@ -770,12 +643,6 @@ USE - This board prevents the print head\nassembly from falling when power is\nd
 Text Notes 10600 7650 0    59   ~ 0
 C
 Wire Wire Line
-	6500 1900 8000 1900
-Wire Wire Line
-	6200 3100 6200 3700
-Wire Wire Line
-	6200 2800 6200 3100
-Wire Wire Line
 	5300 2200 5550 2200
 Wire Wire Line
 	5550 3500 5550 5100
@@ -808,23 +675,11 @@ Wire Wire Line
 Wire Wire Line
 	2100 3100 2250 3100
 Wire Wire Line
-	7100 3100 8500 3100
-Wire Wire Line
-	7100 3000 8500 3000
-Wire Wire Line
 	8000 1200 8300 1200
 Wire Wire Line
 	8000 1900 8500 1900
 Wire Wire Line
 	8000 2000 8500 2000
-Wire Wire Line
-	8000 2700 8300 2700
-Wire Wire Line
-	6500 2200 6500 2400
-Wire Wire Line
-	7100 2200 7400 2200
-Wire Wire Line
-	7100 3800 8000 3800
 $Comp
 L Transistor_FET:2N7002 Q1
 U 1 1 5A28155C
@@ -841,21 +696,6 @@ Wire Wire Line
 	5550 5100 5550 5300
 Wire Wire Line
 	5550 5700 5550 6650
-$Comp
-L ec2-24nu:EC2-24NU K2
-U 1 1 5A25BC43
-P 4450 3250
-F 0 "K2" H 4050 3100 60  0000 C CNN
-F 1 "EC2-24NU" H 3900 3400 60  0000 C CNN
-F 2 "AO Parts:EC2_Relay" H 4200 2750 60  0001 C CNN
-F 3 "" H 4200 2750 60  0001 C CNN
-F 4 "EC2-24NU" H 4450 3250 60  0001 C CNN "Part Number"
-F 5 "Digikey" H 4450 3250 60  0001 C CNN "Primary Supplier"
-F 6 "399-11037-5-ND" H 4450 3250 60  0001 C CNN "DKPN"
-F 7 "EL-MS0492" H 4450 3250 60  0001 C CNN "AO Part Number"
-	1    4450 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2500 5400 2500 6000
 Wire Wire Line
@@ -912,6 +752,72 @@ F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 3500 5500 60  0001 C CNN
 F 3 "" H 3500 5500 60  0001 C CNN
 F 4 "LM397MF/NOPBCT-ND" H 3450 5500 50  0001 C CNN "DKPN"
 	1    3450 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2300 4450 2400
+Wire Wire Line
+	4450 2400 6200 2400
+Wire Wire Line
+	6200 2400 6200 1900
+Wire Wire Line
+	6200 1900 8000 1900
+Connection ~ 8000 1900
+Wire Wire Line
+	4450 3600 4450 3700
+Wire Wire Line
+	4450 3700 6500 3700
+Wire Wire Line
+	6500 3700 6500 2700
+Wire Wire Line
+	6500 2700 8000 2700
+Wire Wire Line
+	8000 2700 8350 2700
+Wire Wire Line
+	8350 2700 8350 2100
+Wire Wire Line
+	8350 2100 8500 2100
+Connection ~ 8000 2700
+Wire Wire Line
+	4750 1600 4750 2300
+Wire Wire Line
+	4750 2900 4750 3600
+Wire Wire Line
+	4750 3600 4600 3600
+Wire Wire Line
+	4600 2900 4750 2900
+Wire Wire Line
+	4750 2300 4600 2300
+Wire Wire Line
+	4600 1600 4750 1600
+$Comp
+L ec2-24nu:EC2-24NU K1
+U 1 1 5A25BAB4
+P 4450 1950
+F 0 "K1" H 4050 1800 60  0000 C CNN
+F 1 "EC2-24NU" H 3900 2100 60  0000 C CNN
+F 2 "AO Parts:EC2_Relay" H 4200 1450 60  0001 C CNN
+F 3 "" H 4200 1450 60  0001 C CNN
+F 4 "EC2-24NU" H 4450 1950 60  0001 C CNN "Part Number"
+F 5 "Digikey" H 4450 1950 60  0001 C CNN "Primary Supplier"
+F 6 "399-11037-5-ND" H 4450 1950 60  0001 C CNN "DKPN"
+F 7 "EL-MS-0492" H 4450 1950 60  0001 C CNN "AO Part Number"
+	1    4450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ec2-24nu:EC2-24NU K2
+U 1 1 5A25BC43
+P 4450 3250
+F 0 "K2" H 4050 3100 60  0000 C CNN
+F 1 "EC2-24NU" H 3900 3400 60  0000 C CNN
+F 2 "AO Parts:EC2_Relay" H 4200 2750 60  0001 C CNN
+F 3 "" H 4200 2750 60  0001 C CNN
+F 4 "EC2-24NU" H 4450 3250 60  0001 C CNN "Part Number"
+F 5 "Digikey" H 4450 3250 60  0001 C CNN "Primary Supplier"
+F 6 "399-11037-5-ND" H 4450 3250 60  0001 C CNN "DKPN"
+F 7 "EL-MS0492" H 4450 3250 60  0001 C CNN "AO Part Number"
+	1    4450 3250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
