@@ -1,0 +1,24 @@
+Z_BRAKE BILL OF MATERIALS (BOM)
+
+REFERENCE	DESCRIPTION					MFR. PART NUMBER	MFR.				NOTE
+
+C1		Capacitor SMT 0603 Ceramic 0.22uF 50V X7R	CL10B224KB8VPNC		Samsung Electro-Mechanics
+D1		Zener Diode SMA SMT 10.0V 1W +/- 5%		SMAZ10-13-F		Diodes Incorporated
+D2		Schottky Diode SMT SOD-123 40V 300mA		BAT54ZFILM		STMicroelectronics
+D3		Schottky Diode SMT SOD-123 40V 300mA		BAT54ZFILM		STMicroelectronics
+D4		LED SMT 0603 Yellow Clear                       LTST-C190YKT		Lite-On Inc.
+K1		Relay DIP 24V 2A DPDT				EC2-24NU		Kemet
+K2		Relay DIP 24V 2A DPDT				EC2-24NU		Kemet
+P1		Connector SL Header 4-Pin 1x4 0.100 Shrouded	0705430003		Molex, LLC
+P2		Connector SL Header 2-Pin 1x2 0.100 Shrouded	0705430001		Molex, LLC
+P3		Connector SL Header 4-Pin 1x4 0.100 Shrouded	0705430003		Molex, LLC
+P4		Connector SL Header 4-Pin 1x4 0.100 Shrouded	0705430003		Molex, LLC
+Q1		Transistor FET N-Channel SMT SOT-23 60V		2N7002			Central Semiconductor Corp	Vgs must be 30VDC minimum
+R1		Resistor SMT 0603 12.4 k 1%			RC0603FR-0712K4L	Yageo
+R2		Resistor SMT 0603 10.0 k 1%			RC0603FR-0710KL		Yageo
+R3		Resistor SMT 0603 10.0 k 1%			RC0603FR-0710KL		Yageo
+R4		Resistor SMT 0603 180 k 1%			RC0603FR-07180KL	Yageo
+R5		Resistor SMT 0603 10.0 k 1%			RC0603FR-0710KL		Yageo
+R6		Resistor SMT 0603 3.30 k 1%			RC0603FR-073K3L		Yageo
+U1		IC SMT SOT-23-5 LM397				LM397MF/NOPB		Texas Instruments
+
