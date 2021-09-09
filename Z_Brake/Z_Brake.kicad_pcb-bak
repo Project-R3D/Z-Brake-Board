@@ -428,11 +428,6 @@
       (net 11 "Net-(K1-Pad4)"))
     (pad 5 thru_hole circle (at 5.08 2.54 90) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 12 "Net-(K1-Pad5)"))
-    (model ${KIPRJMOD}/../libs/KEMET_-_EC2-24NU.step
-      (offset (xyz 1.35 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
-    )
   )
 
   (module ec2:EC2_Relay (layer F.Cu) (tedit 5A60B129) (tstamp 6139F206)
@@ -468,11 +463,6 @@
       (net 14 "Net-(K2-Pad9)"))
     (pad 10 thru_hole circle (at 0 -2.54 90) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 13 "Net-(K2-Pad10)"))
-    (model G:/dev/ProjectR3D/Lulz_Z_Brake/libs/KEMET_-_EC2-24NU.step
-      (offset (xyz 1.35 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
-    )
   )
 
   (module MountingHole:MountingHole_2.5mm_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 6139F219)
