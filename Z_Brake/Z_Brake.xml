@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>G:\dev\ProjectR3D\Lulz_Z_Brake\Z_Brake\Z_Brake.sch</source>
+    <date>9/10/2021 5:07:52 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Z_Brake.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="DKPN">1276-6600-1-ND</field>
+        <field name="MPN">CL10B224KB8VPNC</field>
+        <field name="Manufacturer">Samsung</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A256C88</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>10.0 V ZENER</value>
+      <footprint>Diode_SMD:D_SMA_Handsoldering</footprint>
+      <fields>
+        <field name="DKPN">SMAZ10-FDICT-ND</field>
+        <field name="MPN">SMAZ10-13-F</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Primary Supplier">Digikey</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener_ALT" description="Zener diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A256D6B</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X04</value>
+      <footprint>Molex:Molex-70543-0038-0-0-MFG</footprint>
+      <fields>
+        <field name="DKPN">WM4802-ND</field>
+        <field name="MPN">0705430003</field>
+        <field name="Manufacturer">Molex</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A25BCC2</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X04</value>
+      <footprint>Molex:Molex-70543-0038-0-0-MFG</footprint>
+      <fields>
+        <field name="DKPN">WM4802-ND</field>
+        <field name="MPN">0705430003</field>
+        <field name="Manufacturer">Molex</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A25BD67</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_Schottky_ALT</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="DKPN">497-5712-1-ND</field>
+        <field name="MPN">BAT48ZFILM</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Primary Supplier">Digikey</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_ALT" description="Schottky diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A25CBCD</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_Schottky_ALT</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="DKPN">497-5712-1-ND</field>
+        <field name="MPN">BAT48ZFILM</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Primary Supplier">Digikey</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_ALT" description="Schottky diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A25CC1A</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X02</value>
+      <footprint>Molex:MOLEX_0705430001</footprint>
+      <fields>
+        <field name="DKPN">WM4800-ND</field>
+        <field name="MPN">0705430001</field>
+        <field name="Manufacturer">Molex</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A281286</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="DKPN">311-3.30KHRCT-ND</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A282435</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="DKPN">311-10.0KHRCT-ND</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A2833C8</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>180k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="DKPN">311-180KHRCT-ND</field>
+        <field name="MPN">RC0603FR-07180KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A283C18</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="DKPN">311-10.0KHRCT-ND</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A2840E3</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>12.4k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="DKPN">311-12.4KHRCT-ND</field>
+        <field name="MPN">RC0603FR-0712K4L</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A2841D0</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="DKPN">311-10.0KHRCT-ND</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A284279</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="DKPN">311-10.0KHRCT-ND</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A285833</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>CONN_01X01</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A299CC8</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>CONN_01X01</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A299F19</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>CONN_01X01</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A299FA8</tstamp>
+    </comp>
+    <comp ref="MH4">
+      <value>CONN_01X01</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A299FF7</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D_ALT</value>
+      <footprint>Diode_SMD:D_SMA_Handsoldering</footprint>
+      <fields>
+        <field name="DKPN">641-1748-1-ND</field>
+        <field name="MPN">CDBA340-HF</field>
+        <field name="Manufacturer">Comchip Technology</field>
+        <field name="Primary Supplier">Digikey</field>
+      </fields>
+      <libsource lib="Device" part="D_ALT" description="Diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A610DDD</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>M2012C390</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="DKPN">445-2549-1-ND</field>
+        <field name="MPN">AVR-M2012C390KT6AB</field>
+        <field name="Manufacturer">TDK</field>
+      </fields>
+      <libsource lib="Device" part="Varistor" description="Voltage dependent resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2814B5</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>M2012C390</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="DKPN">445-2549-1-ND</field>
+        <field name="MPN">AVR-M2012C390KT6AB</field>
+        <field name="Manufacturer">TDK</field>
+      </fields>
+      <libsource lib="Device" part="Varistor" description="Voltage dependent resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B281638</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="DKPN">1514-2N7002TRPBFREECT-ND</field>
+        <field name="MPN">2N7002 TR PBFREE</field>
+        <field name="Manufacturer">Central Semiconductor Corp</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A28155C</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM397</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <fields>
+        <field name="DKPN">LM397MF/NOPBCT-ND</field>
+        <field name="MPN">LM397MF/NOPB</field>
+        <field name="Manufacturer">TI</field>
+      </fields>
+      <libsource lib="lm397" part="LM397" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A280FF5</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>EC2-24NU</value>
+      <footprint>ec2:EC2_Relay</footprint>
+      <fields>
+        <field name="DKPN">399-11037-5-ND</field>
+        <field name="MPN">EC2-24NU</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Primary Supplier">Digikey</field>
+      </fields>
+      <libsource lib="ec2-24nu" part="EC2-24NU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A25BAB4</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>EC2-24NU</value>
+      <footprint>ec2:EC2_Relay</footprint>
+      <fields>
+        <field name="DKPN">399-11037-5-ND</field>
+        <field name="MPN">EC2-24NU</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Primary Supplier">Digikey</field>
+      </fields>
+      <libsource lib="ec2-24nu" part="EC2-24NU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A25BC43</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="DKPN">160-1184-1-ND</field>
+        <field name="MPN">LTST-C190YKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A282358</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_ALT">
+      <description>Diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky_ALT">
+      <description>Schottky diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener_ALT">
+      <description>Zener diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_ALT">
+      <description>Light emitting diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Varistor">
+      <description>Voltage dependent resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RV_*</fp>
+        <fp>Varistor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">Varistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+        <alias>AO3400A</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ec2-24nu" part="EC2-24NU">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">EC2-24NU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="3" name="~" type="BiDi"/>
+        <pin num="4" name="~" type="BiDi"/>
+        <pin num="5" name="~" type="BiDi"/>
+        <pin num="8" name="~" type="BiDi"/>
+        <pin num="9" name="~" type="BiDi"/>
+        <pin num="10" name="~" type="BiDi"/>
+        <pin num="12" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="lm397" part="LM397">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM397</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="Out" type="input"/>
+        <pin num="5" name="~" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="ec2-24nu">
+      <uri>G:\dev\ProjectR3D\Lulz_Z_Brake\Z_Brake/../libs/ec2-24nu.lib</uri>
+    </library>
+    <library logical="lm397">
+      <uri>G:\dev\ProjectR3D\Lulz_Z_Brake\Z_Brake/../libs/lm397.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="MH2" pin="1"/>
+      <node ref="MH1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="MH3" pin="1"/>
+      <node ref="MH4" pin="1"/>
+    </net>
+    <net code="2" name="VDD">
+      <node ref="D4" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="K2" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="K1" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="3" name="Net-(K2-Pad9)">
+      <node ref="P3" pin="4"/>
+      <node ref="K2" pin="9"/>
+      <node ref="RV2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(K1-Pad10)">
+      <node ref="K1" pin="10"/>
+      <node ref="K1" pin="3"/>
+    </net>
+    <net code="5" name="Net-(K2-Pad10)">
+      <node ref="K2" pin="10"/>
+      <node ref="K2" pin="3"/>
+    </net>
+    <net code="6" name="Net-(K1-Pad4)">
+      <node ref="RV1" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="K1" pin="4"/>
+    </net>
+    <net code="7" name="Net-(K1-Pad5)">
+      <node ref="P1" pin="1"/>
+      <node ref="K1" pin="5"/>
+    </net>
+    <net code="8" name="Net-(K1-Pad8)">
+      <node ref="K1" pin="8"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(K1-Pad9)">
+      <node ref="P3" pin="2"/>
+      <node ref="K1" pin="9"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(K2-Pad4)">
+      <node ref="P3" pin="3"/>
+      <node ref="K2" pin="4"/>
+      <node ref="RV2" pin="1"/>
+    </net>
+    <net code="11" name="Net-(K2-Pad5)">
+      <node ref="P1" pin="3"/>
+      <node ref="K2" pin="5"/>
+    </net>
+    <net code="12" name="Net-(K2-Pad8)">
+      <node ref="P1" pin="4"/>
+      <node ref="K2" pin="8"/>
+    </net>
+    <net code="13" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="14" name="Net-(D1-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="16" name="+24V">
+      <node ref="D5" pin="2"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D2-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="K1" pin="12"/>
+      <node ref="D2" pin="2"/>
+      <node ref="K2" pin="12"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="18" name="Net-(Q1-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C1-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R5" pin="2"/>
+    </net>
+  </nets>
+</export>
