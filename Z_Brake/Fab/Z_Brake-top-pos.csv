@@ -1,18 +1,18 @@
-Ref,Val,Package,PosX,PosY,Rot,Side
-"C1","0.22uF","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",2.700000,-4.075000,180.000000,top
-"D1","10.0 V ZENER","D_SMA_Handsoldering",2.600000,-3.575000,0.000000,top
-"D2","D_Schottky_ALT","D_SOD-123",3.700000,-4.125000,180.000000,top
-"D3","D_Schottky_ALT","D_SOD-123",3.300000,-4.125000,180.000000,top
-"D4","LED","LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder",2.925000,-3.600000,0.000000,top
-"D5","D_ALT","D_SMA_Handsoldering",2.925000,-3.310000,90.000000,top
-"Q1","2N7002","SOT-23_Handsoldering",2.925000,-4.000000,0.000000,top
-"R1","12.4k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",2.460000,-3.850000,270.000000,top
-"R2","10k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",2.530000,-4.035000,90.000000,top
-"R3","10k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",2.530000,-3.850000,270.000000,top
-"R4","180k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",2.700000,-4.155000,180.000000,top
-"R5","10k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",2.700000,-3.770000,0.000000,top
-"R6","10k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",2.890000,-3.735000,90.000000,top
-"R7","3.3k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",2.960000,-3.735000,270.000000,top
-"RV1","M2012C390","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",3.600000,-4.425000,180.000000,top
-"RV2","M2012C390","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",3.400000,-4.425000,180.000000,top
-"U1","LM397","SOT-23-5_HandSoldering",2.700000,-3.950000,0.000000,top
+Designator,Val,Package,MidX,MidY,Rotation,Layer
+C1,0.22uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2.7,-4.075,180,top
+D1,10.0 V ZENER,D_SMA_Handsoldering,2.6,-3.575,0,top
+D2,D_Schottky_ALT,D_SOD-123,3.7,-4.125,180,top
+D3,D_Schottky_ALT,D_SOD-123,3.3,-4.125,180,top
+D4,LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2.925,-3.6,0,top
+D5,D_ALT,D_SMA_Handsoldering,2.925,-3.31,90,top
+Q1,2N7002,SOT-23_Handsoldering,2.925,-4,0,top
+R1,12.4k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2.46,-3.85,270,top
+R2,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2.53,-4.035,90,top
+R3,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2.53,-3.85,270,top
+R4,180k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2.7,-4.155,180,top
+R5,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2.7,-3.77,0,top
+R6,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2.89,-3.735,90,top
+R7,3.3k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2.96,-3.735,270,top
+RV1,M2012C390,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,3.6,-4.425,180,top
+RV2,M2012C390,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,3.4,-4.425,180,top
+U1,LM397,SOT-23-5_HandSoldering,2.7,-3.95,0,top
