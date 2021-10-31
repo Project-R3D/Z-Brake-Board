@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ec2-24nu)(type Legacy)(uri ${KIPRJMOD}/../libs/ec2-24nu.lib)(options "")(descr ""))
+  (lib (name lm397)(type Legacy)(uri ${KIPRJMOD}/../libs/lm397.lib)(options "")(descr ""))
+)

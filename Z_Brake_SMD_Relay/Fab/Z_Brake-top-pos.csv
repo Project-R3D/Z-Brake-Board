@@ -1,0 +1,20 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,0.22uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,68.58,-103.505,180,top
+D1,10.0 V ZENER,D_SMA_Handsoldering,66.04,-90.805,0,top
+D2,D_Schottky_ALT,D_SOD-123,93.98,-104.775,180,top
+D3,D_Schottky_ALT,D_SOD-123,83.82,-104.775,180,top
+D4,LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,74.295,-91.44,0,top
+D5,D_ALT,D_SMA_Handsoldering,74.295,-84.074,90,top
+K1,EC2-24NU,Relay_DPDT_Kemet_EE2_NU,94.869,-95.25,180,top
+K2,EC2-24NU,Relay_DPDT_Kemet_EE2_NU,82.969,-95.25,180,top
+Q1,2N7002,SOT-23_Handsoldering,74.295,-101.6,0,top
+R1,12.4k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,62.484,-97.79,270,top
+R2,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,64.262,-102.489,90,top
+R3,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,64.262,-97.79,270,top
+R4,180k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,68.58,-105.537,180,top
+R5,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,68.58,-95.758,0,top
+R6,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,73.406,-94.869,90,top
+R7,3.3k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,75.184,-94.869,270,top
+RV1,M2012C390,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,91.44,-112.395,180,top
+RV2,M2012C390,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,86.36,-112.395,180,top
+U1,LM397,SOT-23-5_HandSoldering,68.58,-100.33,0,top
